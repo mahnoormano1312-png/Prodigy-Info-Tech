@@ -59,3 +59,25 @@ Score: 4/5 → 🙂 Medium Password
 ✅ Lowercase Letter
 ✅ Number
 ❌ Special Character
+
+
+git clone <your-repo-url>
+cd <your-repo-directory>
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS / Linux
+source venv/bin/activate
+python in_app_logger.py
+IN-APP KEYLOG (ONLY KEYS PRESSED INSIDE THIS APP)
+User consent: You are using this program to record your own keystrokes.
+Do NOT use this for other people's keystrokes without consent.
+2025-11-03 17:30:25 UTC | keysym=a | char='a'
+pip install pyinstaller
+pyinstaller --onefile in_app_logger.py
+MIT License
+
+Copyright (c) 2025 <Your Name>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy...
+
